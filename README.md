@@ -1,10 +1,10 @@
 - 👋 Hi, I’m @Max-YUAN-22
-- 👀 I’m interested in data science and statistics
-- 🌱 I’m currently learning python, R, C, html, css, Java Script
-- 💞️ I’m looking to collaborate on programming science.
+- 👀 My fields of interests are Biomedical imaging and engineering, Bioinformatics algorithms, Computer vision and deep learning, as well as the applications in the field of Artificial Intelligence like Multi-agent/Multi-model LLMs.
+- 🌱 I’m currently learning python, R, C++, html, css, Java Script, Matlab, Pytorch, tensorflow, MySQL.
+- 💞️ I’m looking to collaborate on programming science, biomedical science and data science.
 - 📫 Here is my personal email: maxyuan0622@outlook.com
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: Enjoy photography and sports.
+- ⚡ Fun fact: Enjoy photography, travel, and sports.
 
 <!---
 Max-YUAN-22/Max-YUAN-22 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
