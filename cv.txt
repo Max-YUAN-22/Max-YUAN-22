@@ -1,0 +1,155 @@
+Tianzuo Yuan
+Room 2106, Building 125, West District, Wangjing HuaYuan, Chaoyang District, Beijing, 100102, China
+ phdyuantianzuo@163.com | +86-15363588039
+
+Education
+University of Macau	                                                                                                                              Macau, China
+BSc in Bioinformatics		   				                                                        08/2023-08/2027
+	•	Cumulative GPA: 3.47/4.0 (Ranked top 15%)
+	•	Honours College Certificate Program cumulative GPA: 3.77/4.0
+
+University of California, Berkeley                                                                                                                 CA, U.S.A.
+Visiting student in the Summer Program 2024				                                           06/2024-08/2024
+	•	Electives: Human Anatomy, Statistical Probability, Cognitive Neuroscience (A)
+
+Research Interests & Publications
+	•	Biomedical imaging and engineering
+	•	Computer vision, Deep learning and Machine learning
+	•	Artificial Intelligence and Multi-agent LLMs
+	•	Multimodal fusion and bioinformatics algorithms
+
+T. Yuan, H. Zhang, J. Jin, Z. Chen, and S. Cai, “A Novel Adaptive Superb Fairy-Wren (Malurus cyaneus) Optimization Algorithm for Solving Numerical Optimization Problems,” Biomimetics (Basel), vol. 10, no. 8, article 496, 2025. doi:10.3390/biomimetics10080496 (IF: 3.9 Q1)
+
+Academic Experiences
+Multi-Agent DSL Framework 									         Beijing, China Independent Researcher                        			  06/2025– 09/2025
+Overview: This project develops a domain-specific language (DSL) framework for multi-agent coordination, enabling scalable real-time interaction, task allocation, and conflict resolution across diverse intelligent systems.
+Methodologies:
+	•	Designed and implemented DSL syntax and compiler modules to formally describe multi-agent workflows.
+	•	Built front-end simulation interfaces (React, Material-UI, WebSocket) for real-time monitoring of autonomous driving, parking management, and weather alert scenarios.
+	•	Engineered a back-end system with Python (FastAPI, Uvicorn, SocketIO) supporting concurrency of 1000+ agents, optimized for <200 ms average response time.
+	•	Developed enterprise-level dashboard for system state tracking, API configuration, and performance metrics (throughput, latency, memory usage).
+	•	Automated CI/CD pipelines with GitHub Actions, Vercel, and Railway for front–back integration and seamless deployment.
+Outcome: Delivered a fully deployable multi-agent simulation and coordination platform with performance evaluation across scenarios and planning to submit the manuscript to a CCF A-class conference/journal.
+
+Cross-Domain Adaptation of LIO-SAM for Medical Image Registration                                              Macau, China
+Independent Researcher 							                              07/2025-09/2025
+Overview: This project adapts the LIO-SAM SLAM framework, initially developed for autonomous driving, to real-time medical image registration tasks.
+Methodologies:
+	•	Conducted experiments on KITTI odometry datasets (Sequences 5 & 10) and applied the workflow to a tumor-tracking MRI case study.
+	•	Designed a workflow from trajectory extraction and Procrustes alignment to accuracy evaluation using MAE, RMSE, and MAX deviation.
+	•	Compared performance against traditional registration methods, including B-spline, Demons, and deep learning–based VoxelMorph/TransMorph.
+	•	Implemented factor graph optimization and sensor fusion to enhance robustness in medical imaging contexts.
+	•	Proposed future integration with 3D multimodal imaging, surgical navigation, and teleoperation platforms.
+Outcome: Manuscript under submission to an EI-indexed journal.
+
+Cross-Stage Gastric Cancer Diagnosis from Real-Time Endoscopic Video Using Hybrid Deep Learning 
+         Macau, China
+Independent Researcher 							                              05/2025-07/2025
+Overview: Developed an AI-driven system for rapid gastric cancer diagnosis from real-time endoscopic video, focusing on early-stage detection to improve clinical decision-making.
+Methodologies:
+	•	Implemented a hybrid deep learning pipeline combining VGG16 feature extraction with XGBoost classification for multi-stage cancer diagnosis.
+	•	Applied data augmentation techniques to balance class distribution, including rotation, shifting, and brightness adjustment.
+	•	Integrated PCA dimensionality reduction and mutual information–based feature selection to enable efficient training on high-dimensional features.
+	•	Conducted hyperparameter optimization with RandomizedSearchCV and ensemble adjustments to maximize accuracy and F1-score.
+	•	Employed visualization tools, including confusion matrix heatmaps and ROC analysis, to validate diagnostic performance.
+Outcome: Established a real-time deployable model capable of accurately classifying gastric cancer stages, particularly enhancing early-stage recognition.
+
+Hierarchical Feature Modelling and Dynamic Reasoning for 3D Medical Multimodal Large Models 
+         Macau, China
+Independent Researcher 							                              05/2025-07/2025
+Overview: Investigated 3D multimodal medical imaging analysis, addressing feature fusion challenges across CT and MRI for tumour segmentation and classification.
+Methodologies:
+	•	Designed hierarchical feature modelling and a dynamic reasoning framework integrating modality-specific convolution and cross-modal attention.
+	•	Conducted experiments on BraTS, LiTS, and NSCLC-Radiomics datasets to validate performance.
+	•	Contributed to methodology design, experimental analysis, result interpretation, and manuscript writing.
+	•	Ensured reproducibility and clinical relevance through rigorous experimental validation.
+Outcome: Second author; manuscript under submission to a CCF A-class conference/journal.
+
+Intelligent Detection Model of Lung Nodules in Medical CT Images Based on Deep Learning ECNCT 2025
+                                                                                                                                                                      Macau, China
+Independent Researcher 							                              03/2025-07/2025
+Overview: Designed a YOLOv11-based model for early lung cancer screening, integrating dynamic confidence thresholding and C2PSA feature fusion to improve small nodule detection.
+Methodologies:
+	•	Led data collection, preprocessing, model implementation, and experimental evaluation on a dataset of 2,356 annotated CT images.
+	•	Built and trained models using PyTorch on NVIDIA RTX 4060 GPU.
+	•	Introduced dynamic confidence thresholding to reduce false positives.
+	•	Applied C2PSA feature fusion to enhance the detection of small nodules.
+	•	Evaluated performance using MIoU, Accuracy, Precision, and PR curves.
+Outcome: Published in IEEE Xplore (ISBN: 979-8-3315-9969-0), indexed by EI Compendex and Scopus; received Best Oral Presentation and Excellent Young Scholar awards.
+
+MRI-based Artificial Intelligence in Predicting Prostate Cancer Biochemical Recurrence: A Systematic Review and Meta-Analysis                                                                                                                                     Macau, China
+Independent Researcher 							                              01/2025-05/2025
+Overview: Co-authored a systematic review and meta-analysis on MRI-based AI models for predicting biochemical recurrence in prostate cancer, evaluating diagnostic performance and methodological challenges.
+Methodologies:
+	•	Conducted literature search, screening, and data extraction following PRISMA guidelines.
+	•	Performed random-effects and subgroup meta-analytic modelling, sensitivity testing, and heterogeneity assessment using R (metafor, meta packages).
+	•	Synthesized multi-study evidence to assess the predictive power of MRI-based AI algorithms.
+	•	Participated in manuscript drafting, quality assessment, and interpretation of statistical results.
+	•	Ensured reproducibility and clinical relevance of analyses for translational applications.
+Outcome: Second author; manuscript completed and under submission to npj Digital Medicine(ISSN 2398-6352).
+
+Development of a Pan-Neuroendocrine RNA-seq Database and Spatial Transcriptomic Analysis of Tumour Microenvironment in Pulmonary Lymphoepithelioma-like Carcinoma                                                Macau, China
+Independent Researcher 							                              12/2024-09/2025
+Overview: Explored tumor microenvironment heterogeneity in pulmonary lymphoepithelioma-like carcinoma using spatial transcriptomics and developed a pan-neuroendocrine RNA-seq database with a web-based visualization platform.
+Methodologies:
+	•	Applied spatial transcriptomics analysis, including cell clustering, cell–cell interaction inference, and immune infiltration profiling using Seurat, CellPhoneDB, and Scanpy.
+	•	Integrated multi-source RNA-seq datasets from TCGA, GEO, and in-house sequencing.
+	•	Constructed database infrastructure using MySQL/PostgreSQL and developed an interactive front-end with R Shiny, Python Dash, and React.js.
+	•	Designed and implemented the back-end pipeline for efficient data processing.
+	•	Drafted manuscript sections and prepared figures illustrating TME heterogeneity.
+Outcome: Established a comprehensive RNA-seq database and visualization platform enabling accessible data exploration for neuroendocrine tumor research.
+
+Internship Experience
+07/2025-09/2025: Algorithm Framework Design Improvement Intern, Institute of Microelectronics, Chinese Academy of Sciences  
+	•	Participated in research on Large Language Models (LLMs) and multi-agent systems, focusing on collaborative intelligence.  
+	•	Contributed to the design of a multimodal multi-agent smart city framework, integrating natural language processing, perception, and decision-making modules.  
+	•	Explored agent cooperation strategies for urban planning, traffic management, and public service optimisation.  
+	•	Enhanced skills in multi-agent coordination, multimodal fusion, and applied AI systems development.  
+
+05/2025-11/2025: Researcher, University of Macau, Honor College  
+	•	Engaged in research on multimodal deep learning and its applications in computer vision and biomedical data mining.  
+	•	Focused on early cancer diagnosis, developing AI-driven methods to integrate imaging, clinical, and molecular data for improved predictive accuracy.  
+	•	Applied state-of-the-art deep learning frameworks for multimodal fusion and medical data interpretation.  
+	•	Strengthened expertise in medical AI, multimodal representation learning, and translational research.  
+
+01/2025-05/2025: Teaching Assistant (R Programming Fundamentals), University of Macau, CKLC Residential College  
+	•	Assisted in teaching R programming basics to undergraduate students, covering data manipulation, visualization, and statistical analysis.  
+	•	Provided one-on-one and group guidance, clarifying course concepts and supporting students in completing assignments and projects.  
+	•	Enhanced students' understanding of R language applications in data science and research.  
+
+08/2024-12/2025: Office Assistant, University of Macau, CKLC Residential College  
+	•	Supported event planning and coordination, including designing student activities and community programs.  
+	•	Conducted data processing and record management to assist administrative decision-making.  
+	•	Designed and produced posters and promotional materials to enhance campus engagement.  
+	•	Assisted with daily office operations, ensuring smooth workflow and communication.  
+
+05/2024 -6/2025: Intern, Bioinformatics and Single-Cell Data Analysis, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences  
+	•	Conducted bioinformatics analysis with a focus on RNA-seq and single-cell transcriptomic data.  
+	•	Applied single-cell analysis pipelines (e.g., Seurat, Scanpy) for cell clustering, differential expression.
+	•	Gained hands-on experience in data preprocessing, visualization, and interpretation to support ongoing biomedical research.  
+
+Awards & Honors
+	•	08/2024-05/2025: Dean's Honor List Certification (University of Macau, Faculty of Health Sciences)  
+	•	08/2024-12/2025: Honors College Certificate Program [Recognized for academic excellence and leadership potential]  
+	•	01/2024-12/2025: Public Speaking & Leadership [Top 9 Finalist at University of Macau Competition; MC Lead at World Universities Championship 2025]  
+	•	2024: CKLC Leadership and Contribution Scholarship [Awarded for outstanding leadership, academic role models, as well as community engagement]  
+	•	03/2025-09/2025: A series of Kaggle Machine Learning & Deep learning Competition [Top5%-20% final ranking]  
+	•	03/2025: Future Cup - 4th University Big Data Challenge (2025) [Second Prize in Undergraduate Group]  
+	•	01/2025: Mathematical Contest in Modeling (MCM, 2025) ["Successful Participant" designation by COMAP]  
+	•	12/2024: Asia-Pacific Mathematical Contest in Modeling (2024) [Outstanding Participation Award for underwater image enhancement research]  
+	•	02/2024-11/2024: iGEM - Silver Medal (2024) CavengerX: Ultrasound-Activated Calcium Overload Anti-Cancer System(https://2024.igem.wiki/um-macau/) [Recognized for high-quality team wiki website in synthetic biology]
+
+Extracurricular Activities
+	•	8/2025-9/2025: Member of the Unmanned Technology Application Team, guided and assisted lower-grade undergraduate students in participating in computer vision and AI-related projects.
+	•	6/2024-9/2025: Member of the Campus Stray Cat Rescue Program, developed mini-programs and apps to protect the safety of stray cats and record feeding, designed cultural and creative products, and organized a series of visits to pet stations and community care services on behalf of CKLC college of the University of Macau.
+	•	08/2024-12/2025: Minister of the Publicity Department, IET Hong Kong Branch Youth Membership for the Macau Student Organization.
+	•	11/2023-11/2024: Member of the Publicity Department, FHSSA, Faculty of Health Sciences, University of Macau.
+	•	10/2023-06/2025: Member of the University of Macau Photography Society.
+
+Skills
+	•	Languages: Fluent in English with 98 TOEFL iBT score and Mandarin; basic proficiency in Cantonese.
+	•	Computer Skills:
+	•	Basic knowledge of Python, C++, MySQL, SPSS, R, frontend languages and Linux commands.  
+	•	Familiar with deep learning frameworks such as PyTorch and TensorFlow.  
+	•	Proficient in Photoshop, Canva, Microsoft Office, EndNote, and video/animation editing software.
+	•	Music:  Level 6 Piano; beginner in Trombone; skilled in music editing software.
