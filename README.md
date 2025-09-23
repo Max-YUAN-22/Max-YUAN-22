@@ -2,7 +2,7 @@
 👋 Hi, I'm @Max-YUAN-22 Tianzuo Yuan
 
 ## 🌐 Personal Academic Website
-**🔗 Website:** [View Live Portfolio](https://max-yuan-22.github.io/Max-YUAN-22/)](https://max-yuan-22.github.io/Max-YUAN-22/)
+**🔗 Website:** (https://max-yuan-22.github.io/Max-YUAN-22/)](https://max-yuan-22.github.io/Max-YUAN-22/)
 
 ## 🔬 Research Interests
 👀 My fields of interests are:
