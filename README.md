@@ -14,7 +14,7 @@ Programming science, biomedical science and data science projects:
 - Object detection, medical robots
 - Trajectory registration for autonomous driving
 - Sentiment analysis in quantitative finance
-Articles：
+## Articles：
 - A Novel Adaptive Superb Fairy-Wren (Malurus cyaneus) Optimization Algorithm for Solving Numerical Optimization Problems（Biomimetics）
 - TASEM: A Multimodal Time-Aware Deep Learning Framework for Investor Sentiment Prediction: Data Mining from Financial News（under review）
 - MRI-based Artificial Intelligence in Predicting Prostate Cancer Biochemical Recurrence: A Systematic Review and Meta-Analysis（under review）
