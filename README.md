@@ -20,6 +20,8 @@ Articles/Conferences：
 - TASEM: A Multimodal Time-Aware Deep Learning Framework for Investor Sentiment Prediction: Data Mining from Financial News（under review）
 - MRI-based Artificial Intelligence in Predicting Prostate Cancer Biochemical Recurrence: A Systematic Review and Meta-Analysis（under review）
 - Intelligent Detection Model of Lung Nodules in Medical CT Images Based on Deep Learning（ECNCT 2025）
+- Multimodal Deep Learning Framework for Brain Tumor Segmentation Using CT and MRlImages with lmproved Genetic Algorithm Optimization (lCICML 2025)
+- Medical Image Tumor Detection Based on an Improved YOLOv8 Algorithm（CISSE 2025）
 - AI-Powered Cancer Care Navigation System: A Comprehensive Evaluation of LLM-RAG vs Traditional Information Retrieval for Enhanced Patient Support（ICHI 2026）
 ## 📫 Contact
 - **Email:** maxyuan0622@outlook.com
