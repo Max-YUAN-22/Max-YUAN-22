@@ -8,7 +8,7 @@
 - Multi-agent/Multi-model LLMs applications
 ## 🌱 Currently Learning
 Python, PyTorch, TensorFlow, R, C++, HTML, CSS, JavaScript, Matlab, MySQL
-## 💞️ Looking to Collaborate
+## 🧑‍🤝‍🧑 Looking to Collaborate
 Programming science, biomedical science and data science projects:
 - Medical image processing, image segmentation, classification
 - Object detection, medical robots
