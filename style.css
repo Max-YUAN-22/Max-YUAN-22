@@ -5,7 +5,54 @@ body {
     background: #fff;
     max-width: 960px;
     margin: 0 auto;
-    padding: 28px 22px;
+    padding: 70px 22px 28px 22px;
+}
+
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    z-index: 1000;
+}
+
+.topnav-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 22px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.topnav-brand {
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.topnav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+}
+
+.topnav-links a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.topnav-links a:hover {
+    text-decoration: underline;
+}
+
+.topnav-links a:visited {
+    color: #0066cc;
 }
 
 .container {
@@ -99,6 +146,10 @@ h2 {
     color: #222;
     padding-top: 18px;
     border-top: 1px solid #ededed;
+}
+
+h2[id] {
+    scroll-margin-top: 78px;
 }
 
 .pub-table {
@@ -304,6 +355,10 @@ h2 {
 @media (max-width: 768px) {
     body {
         padding: 18px 14px;
+    }
+
+    .topnav-inner {
+        padding: 10px 14px;
     }
 
     .header-table {
