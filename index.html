@@ -7,39 +7,10 @@
     <link rel="stylesheet" href="style.css?v=4114ed2">
 </head>
 <body>
-    <div class="page">
-        <aside class="sidebar">
-            <img src="证件照.jpg" alt="Tianzuo Yuan" class="profile-photo">
-            <div class="sidebar-name">Tianzuo Yuan</div>
-            <div class="sidebar-block">
-                <div class="sidebar-label">Email</div>
-                <div class="sidebar-links">
-                    <a href="mailto:maxyuan0622@outlook.com">maxyuan0622@outlook.com</a><br>
-                    <a href="mailto:cc31642@um.edu.mo">cc31642@um.edu.mo</a><br>
-                    <a href="mailto:cs25966@bristol.ac.uk">cs25966@bristol.ac.uk</a>
-                </div>
-            </div>
-            <div class="sidebar-block">
-                <div class="sidebar-label">Phone</div>
-                <div class="sidebar-text">+853-63588039</div>
-            </div>
-            <div class="sidebar-block">
-                <div class="sidebar-label">Links</div>
-                <div class="sidebar-links">
-                    <a href="https://scholar.google.com/citations?user=M_Po0asAAAAJ&hl=en" target="_blank">Google Scholar</a><br>
-                    <a href="https://github.com/Max-YUAN-22" target="_blank">GitHub</a>
-                </div>
-            </div>
-            <div class="sidebar-block">
-                <div class="sidebar-label">Research Interests</div>
-                <div class="sidebar-text">
-                    Biomedical Imaging &amp; Engineering<br>
-                    Computer Vision, Deep Learning &amp; Machine Learning<br>
-                    Artificial Intelligence and Multi-agent LLMs<br>
-                    Multimodal Fusion &amp; Bioinformatics Algorithms
-                </div>
-            </div>
-            <nav class="sidebar-nav">
+    <nav class="topnav">
+        <div class="topnav-inner">
+            <a class="topnav-brand" href="#">Tianzuo Yuan</a>
+            <div class="topnav-links">
                 <a href="#education">Education</a>
                 <a href="#publications">Selected Publications</a>
                 <a href="#research-experience">Research Experience</a>
@@ -47,10 +18,32 @@
                 <a href="#awards">Awards &amp; Honors</a>
                 <a href="#skills">Skills</a>
                 <a href="#extracurricular">Extracurricular Activities</a>
-            </nav>
-        </aside>
-
-        <main class="content">
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <table class="header-table">
+            <tr>
+                <td class="photo-cell">
+                    <img src="证件照.jpg" alt="Tianzuo Yuan" class="profile-photo">
+                </td>
+                <td class="info-cell">
+                    <h1>Tianzuo Yuan</h1>
+                    <p class="contact">
+                        <strong>Email</strong>: <a href="mailto:maxyuan0622@outlook.com">maxyuan0622@outlook.com</a> | <a href="mailto:cc31642@um.edu.mo">cc31642@um.edu.mo</a> | <a href="mailto:cs25966@bristol.ac.uk">cs25966@bristol.ac.uk</a><br>
+                        <strong>Phone</strong>: +853-63588039<br>
+                        <a href="https://scholar.google.com/citations?user=M_Po0asAAAAJ&hl=en" target="_blank">Google Scholar</a> • 
+                        <a href="https://github.com/Max-YUAN-22" target="_blank">GitHub</a>
+                    </p>
+                    <div class="header-interests">
+                        <div class="header-interests-title">Research Interests</div>
+                        <div class="header-interests-items">
+                            Biomedical Imaging &amp; Engineering • Computer Vision, Deep Learning &amp; Machine Learning • Artificial Intelligence and Multi-agent LLMs • Multimodal Fusion &amp; Bioinformatics Algorithms
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
 
         <div class="about">
             <p>I am an undergraduate student pursuing my BSc in Bioinformatics at the University of Macau, where I maintain a cumulative GPA of 3.48/4.0 (ranked top 15%). My research focuses on the intersection of artificial intelligence and biomedical applications, with particular expertise in deep learning, computer vision, and multimodal data fusion.</p>
@@ -185,7 +178,6 @@
             <li>Minister, Publicity Department, IET Hong Kong Branch, 08/2024–12/2025</li>
             <li>Top 9 Finalist, Public Speaking & Leadership, University of Macau, 01/2024–12/2025</li>
         </ul>
-        </main>
     </div>
 </body>
 </html>
