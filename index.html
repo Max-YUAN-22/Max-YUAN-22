@@ -3,476 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tianzuo Yuan - Academic Portfolio</title>
+    <title>Tianzuo Yuan</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-text">Tianzuo Yuan</span>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#research" class="nav-link">Research</a>
-                <a href="#publications" class="nav-link">Publications</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#education" class="nav-link">Education</a>
-                <a href="#awards" class="nav-link">Awards</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">
-                        <span class="gradient-text">Tianzuo Yuan</span>
-                    </h1>
-                    <h2 class="hero-subtitle">Bioinformatics Researcher & AI Enthusiast</h2>
-                    <p class="hero-description">
-                        Undergraduate student at University of Macau, passionate about biomedical imaging,
-                        deep learning, and multimodal AI applications in healthcare and beyond.
+    <div class="container">
+        <table class="header-table">
+            <tr>
+                <td class="photo-cell">
+                    <img src="证件照.jpg" alt="Tianzuo Yuan" class="profile-photo">
+                </td>
+                <td class="info-cell">
+                    <h1>Tianzuo Yuan</h1>
+                    <p class="contact">
+                        <strong>Email</strong>: <a href="mailto:maxyuan0622@outlook.com">maxyuan0622@outlook.com</a> | <a href="mailto:cc31642@um.edu.mo">cc31642@um.edu.mo</a> | <a href="mailto:cs25966@bristol.ac.uk">cs25966@bristol.ac.uk</a><br>
+                        <strong>Phone</strong>: +853-63588039<br>
+                        <a href="https://scholar.google.com/citations?user=M_Po0asAAAAJ&hl=en" target="_blank">Google Scholar</a> • 
+                        <a href="https://github.com/Max-YUAN-22" target="_blank">GitHub</a>
                     </p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                        <a href="#research" class="btn btn-secondary">View Research</a>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://scholar.google.com/citations?user=M_Po0asAAAAJ&hl=en" target="_blank" class="social-link" title="Google Scholar">
-                            <i class="fas fa-graduation-cap"></i>
-                        </a>
-                        <a href="https://github.com/Max-YUAN-22" target="_blank" class="social-link" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/tianzuo-yuan" target="_blank" class="social-link" title="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://www.researchgate.net/profile/Tianzuo-Yuan" target="_blank" class="social-link" title="ResearchGate">
-                            <i class="fab fa-researchgate"></i>
-                        </a>
-                        <a href="mailto:maxyuan0622@outlook.com" class="social-link" title="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <a href="#" onclick="downloadCV()" class="social-link" title="Download CV">
-                            <i class="fas fa-file-pdf"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="profile-image">
-                        <!-- 在这里放置你的个人照片 -->
-                        <img src="证件照.jpg" alt="Tianzuo Yuan" class="profile-photo">
-                        <!-- 如果没有照片，会显示默认图标 -->
-                        <div class="image-placeholder">
-                            <i class="fas fa-user-graduate"></i>
+                    <div class="header-interests">
+                        <div class="header-interests-title">Research Interests</div>
+                        <div class="header-interests-items">
+                            Biomedical Imaging &amp; Engineering • Computer Vision, Deep Learning &amp; Machine Learning • Artificial Intelligence and Multi-agent LLMs • Multimodal Fusion &amp; Bioinformatics Algorithms
                         </div>
                     </div>
-                    <div class="floating-elements">
-                        <div class="floating-element" data-speed="2">🧬</div>
-                        <div class="floating-element" data-speed="3">🤖</div>
-                        <div class="floating-element" data-speed="1.5">📊</div>
-                        <div class="floating-element" data-speed="2.5">🔬</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </td>
+            </tr>
+        </table>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p class="about-intro">
-                        I'm a passionate researcher currently pursuing my BSc in Bioinformatics at the University of Macau,
-                        where I maintain a strong academic record with a cumulative GPA of 3.49/4.0 and ranked in the top 15% of my class.
-                    </p>
-                    <p>
-                        My research focuses on the intersection of artificial intelligence and biomedical applications,
-                        with particular expertise in deep learning, computer vision, and multimodal data fusion.
-                        I'm passionate about collaborating on medical image processing, image segmentation, classification,
-                        object detection, medical robots, and trajectory registration for autonomous driving.
-                        I've had the privilege of conducting research across diverse domains and have contributed to multiple publications in high-impact venues.
-                    </p>
-                    <p>
-                        Beyond academics, I enjoy photography, travel, and sports. I'm always eager to explore new technologies
-                        and apply AI solutions to real-world biomedical challenges, from quantitative finance sentiment analysis
-                        to cutting-edge medical imaging applications.
-                    </p>
-                    <div class="quick-stats">
-                        <div class="stat">
-                            <div class="stat-number">6+</div>
-                            <div class="stat-label">Research Projects</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-number">3+</div>
-                            <div class="stat-label">Publications</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-number">10+</div>
-                            <div class="stat-label">Awards</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="about">
+            <p>I am an undergraduate student pursuing my BSc in Bioinformatics at the University of Macau, where I maintain a cumulative GPA of 3.48/4.0 (ranked top 15%). My research focuses on the intersection of artificial intelligence and biomedical applications, with particular expertise in deep learning, computer vision, and multimodal data fusion.</p>
         </div>
-    </section>
 
-    <!-- Research Interests -->
-    <section id="research" class="research">
-        <div class="container">
-            <h2 class="section-title">Research Interests</h2>
-            <div class="research-grid">
-                <div class="research-item">
-                    <div class="research-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Biomedical Imaging & Engineering</h3>
-                    <p>Developing AI-driven solutions for medical image analysis, including real-time endoscopic video processing and multimodal medical data fusion.</p>
-                </div>
-                <div class="research-item">
-                    <div class="research-icon">
-                        <i class="fas fa-eye"></i>
-                    </div>
-                    <h3>Computer Vision & Deep Learning</h3>
-                    <p>Advancing computer vision techniques for healthcare applications, with focus on early disease detection and diagnostic accuracy improvement.</p>
-                </div>
-                <div class="research-item">
-                    <div class="research-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Multi-Agent Systems & AI</h3>
-                    <p>Designing scalable multi-agent frameworks with domain-specific languages for real-time coordination and intelligent system interactions.</p>
-                </div>
-                <div class="research-item">
-                    <div class="research-icon">
-                        <i class="fas fa-dna"></i>
-                    </div>
-                    <h3>Bioinformatics & Algorithms</h3>
-                    <p>Developing novel algorithms for genomic data analysis, spatial transcriptomics, and personalized medicine applications.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        <h2>Education</h2>
+        <ul class="edu-list">
+            <li><strong>University of Macau</strong> (Macau, China) — BSc in Bioinformatics — 08/2023–08/2027 — GPA: 3.48/4.0 (Top 15%), Honours College GPA: 3.77/4.0</li>
+            <li><strong>University of California, Berkeley</strong> (CA, U.S.A.) — Visiting Student, Summer Program — 06/2024–08/2024 — Electives: Human Anatomy, Statistics &amp; Probability, Cognitive Neuroscience</li>
+            <li><strong>University of Bristol</strong> (Bristol, U.K.) — Exchange Student — 01/2026–06/2026 — Electives: Data Science Perspectives, Evolutionary Genomics, Recombinant DNA Technology</li>
+        </ul>
 
-    <!-- Publications -->
-    <section id="publications" class="publications">
-        <div class="container">
-            <h2 class="section-title">Selected Publications</h2>
-            <div class="publications-list">
-                <div class="publication-item">
-                    <div class="publication-header">
-                        <h3>A Novel Adaptive Superb Fairy-Wren Optimization Algorithm</h3>
-                        <span class="publication-year">2025</span>
+        <h2>Selected Publications</h2>
+        <table class="pub-table">
+            <tr>
+                <td class="pub-image-cell">
+                    <div class="pub-figure">
+                        <img class="pub-image" src="ECNCT.png" alt="ECNCT 2025">
                     </div>
-                    <p class="publication-authors">T. Yuan, H. Zhang, J. Jin, Z. Chen, and S. Cai</p>
-                    <p class="publication-venue">Biomimetics (Basel), vol. 10, no. 8, article 496 (IF: 3.9 Q1)</p>
-                    <div class="publication-tags">
-                        <span class="tag">Optimization Algorithm</span>
-                        <span class="tag">Biomimetics</span>
-                        <span class="tag">Q1 Journal</span>
+                </td>
+                <td class="pub-content-cell">
+                    <div class="pub-title"><strong>Intelligent Detection Model of Lung Nodules in Medical CT Images</strong></div>
+                    <div class="pub-authors">T. Yuan, G. Xue, Y. Zhu, & Z. Liu</div>
+                    <div class="pub-venue">7th International Conference on Electronics and Communication, Network and Computer Technology (ECNCT), Guangzhou, 2025. <a href="https://doi.org/10.1109/ECNCT66493.2025.11172473" target="_blank">doi: 10.1109/ECNCT66493.2025.11172473</a> <span class="pub-award-inline">Best Oral Presentation Award • Excellent Young Scholar Award</span></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="pub-image-cell">
+                    <div class="pub-figure">
+                        <img class="pub-image" src="Biomimetics.png" alt="Biomimetics">
                     </div>
-                </div>
-                <div class="publication-item">
-                    <div class="publication-header">
-                        <h3>Intelligent Detection Model of Lung Nodules in Medical CT Images</h3>
-                        <span class="publication-year">2025</span>
+                </td>
+                <td class="pub-content-cell">
+                    <div class="pub-title"><strong>A Novel Adaptive Superb Fairy-Wren Optimization Algorithm for Numerical Optimization Problems</strong></div>
+                    <div class="pub-authors">T. Yuan, H. Zhang, J. Jin, Z. Chen, & S. Cai</div>
+                    <div class="pub-venue">Biomimetics (Q1, IF: 3.9), 2025. <a href="https://doi.org/10.3390/biomimetics10080496" target="_blank">doi: 10.3390/biomimetics10080496</a></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="pub-image-cell">
+                    <div class="pub-figure">
+                        <img class="pub-image pub-image-inset" src="ICICML.png" alt="ICICML 2025">
                     </div>
-                    <p class="publication-authors">T. Yuan et al.</p>
-                    <p class="publication-venue">ECNCT 2025, IEEE Xplore (EI Indexed)</p>
-                    <div class="publication-awards">
-                        <i class="fas fa-trophy"></i> Best Oral Presentation Award
-                        <i class="fas fa-star"></i> Excellent Young Scholar Award
+                </td>
+                <td class="pub-content-cell">
+                    <div class="pub-title"><strong>Multimodal Deep Learning Framework for Brain Tumor Segmentation Using CT and MRI Images</strong></div>
+                    <div class="pub-authors">T. Yuan & S. Li</div>
+                    <div class="pub-venue">4th International Conference on Image Processing, Computer Vision and Machine Learning (ICICML), Chongqing, 2025. <a href="https://doi.org/10.1109/ICICML67980.2025.11333677" target="_blank">doi: 10.1109/ICICML67980.2025.11333677</a></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="pub-image-cell">
+                    <div class="pub-figure">
+                        <img class="pub-image" src="coming soom.png" alt="Coming soon">
                     </div>
-                    <div class="publication-tags">
-                        <span class="tag">Deep Learning</span>
-                        <span class="tag">Medical Imaging</span>
-                        <span class="tag">YOLOv11</span>
+                </td>
+                <td class="pub-content-cell">
+                    <div class="pub-title"><strong>MRI-based Artificial Intelligence in Predicting Prostate Cancer Biochemical Recurrence: A Systematic Review and Meta-Analysis</strong></div>
+                    <div class="pub-venue">JMIR, under revision</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="pub-image-cell">
+                    <div class="pub-figure">
+                        <img class="pub-image" src="coming soom.png" alt="Coming soon">
                     </div>
-                </div>
-                <div class="publication-item">
-                    <div class="publication-header">
-                        <h3>MRI-based AI in Predicting Prostate Cancer Biochemical Recurrence</h3>
-                        <span class="publication-year">2025</span>
+                </td>
+                <td class="pub-content-cell">
+                    <div class="pub-title"><strong>A Lightweight, Deployable AI Agent for Cancer Care Navigation: A Data-Driven Approach for Regions with Unique Epidemiological Profiles</strong></div>
+                    <div class="pub-venue">ICHI 2026, under review</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="pub-image-cell">
+                    <div class="pub-figure">
+                        <img class="pub-image" src="coming soom.png" alt="Coming soon">
                     </div>
-                    <p class="publication-authors">Second Author</p>
-                    <p class="publication-venue">Under submission to npj Digital Medicine</p>
-                    <div class="publication-tags">
-                        <span class="tag">Systematic Review</span>
-                        <span class="tag">Meta-Analysis</span>
-                        <span class="tag">Medical AI</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </td>
+                <td class="pub-content-cell">
+                    <div class="pub-title"><strong>Adaptive Multi-Agent Fusion for Gastric Cancer Classification</strong></div>
+                    <div class="pub-venue">BSPC, under review</div>
+                </td>
+            </tr>
+        </table>
 
-    <!-- Research Experience -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Research Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">06/2025 - 09/2025</div>
-                    <div class="timeline-content">
-                        <h3>Multi-Agent DSL Framework</h3>
-                        <p class="timeline-subtitle">Independent Researcher, Beijing, China</p>
-                        <p>Developed a domain-specific language framework for multi-agent coordination with React front-end and Python FastAPI backend, supporting 1000+ agents with <200ms response time.</p>
-                        <div class="timeline-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">React</span>
-                            <span class="tag">FastAPI</span>
-                            <span class="tag">Multi-Agent Systems</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">07/2025 - 09/2025</div>
-                    <div class="timeline-content">
-                        <h3>Cross-Domain Adaptation of LIO-SAM</h3>
-                        <p class="timeline-subtitle">Independent Researcher, Macau, China</p>
-                        <p>Adapted SLAM framework for medical image registration, comparing against traditional methods including VoxelMorph and TransMorph with factor graph optimization.</p>
-                        <div class="timeline-tags">
-                            <span class="tag">SLAM</span>
-                            <span class="tag">Medical Imaging</span>
-                            <span class="tag">Computer Vision</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">05/2025 - 07/2025</div>
-                    <div class="timeline-content">
-                        <h3>Cross-Stage Gastric Cancer Diagnosis</h3>
-                        <p class="timeline-subtitle">Independent Researcher, Macau, China</p>
-                        <p>Developed hybrid deep learning pipeline combining VGG16 with XGBoost for real-time endoscopic video analysis and early-stage cancer detection.</p>
-                        <div class="timeline-tags">
-                            <span class="tag">Deep Learning</span>
-                            <span class="tag">Medical AI</span>
-                            <span class="tag">Real-time Processing</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <h2>Research Experience</h2>
+        <ul class="exp-list">
+            <li><strong>Pan-neuroendocrine RNA-seq Database with Web-based Visualization Platform</strong><br>
+                Macau, China, 12/2024–12/2025<br>
+                Supervisor: Professor Edwin Chong Wing CHEUNG (FHS)<br>
+                Explored tumor microenvironment heterogeneity using spatial transcriptomics and built a pan-neuroendocrine RNA-seq database with web-based visualization. Analyzed spatial transcriptomics with Seurat/CellPhoneDB/Scanpy and integrated multi-source RNA-seq datasets (TCGA, GEO, in-house). Implemented database infrastructure (MySQL/PostgreSQL) and interactive front-end (R Shiny, Python Dash, React.js).
+            </li>
+            <li><strong>A Cross Deep Learning System for Rapid Automatic Diagnosis of Gastric Cancer from Real-Time Endoscopic Videos</strong><br>
+                HC Internship Program, University of Macau, 05/2025–07/2025<br>
+                Supervisor: Professor Fong Simon James (FST)<br>
+                Developed deep learning pipeline for early gastric cancer diagnosis from real-time endoscopic video, achieving high accuracy for stage detection. Developed hybrid AI model using VGG16 and XGBoost for multi-stage cancer detection, achieving high classification accuracy. Developed multimodal AI models combining imaging and clinical data for early cancer diagnosis, focusing on improving predictive performance with deep learning (05/2025–11/2025).
+            </li>
+        </ul>
 
-    <!-- Education -->
-    <section id="education" class="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-list">
-                <div class="education-item">
-                    <div class="education-icon">
-                        <i class="fas fa-university"></i>
-                    </div>
-                    <div class="education-content">
-                        <h3>University of Macau</h3>
-                        <p class="education-degree">BSc in Bioinformatics</p>
-                        <p class="education-date">08/2023 - 08/2027</p>
-                        <p class="education-details">
-                            • Cumulative GPA: 3.49/4.0 (Top 15%)<br>
-                            • Honours College Certificate Program GPA: 3.77/4.0<br>
-                            • Dean's Honor List Certification
-                        </p>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <div class="education-icon">
-                        <i class="fas fa-atom"></i>
-                    </div>
-                    <div class="education-content">
-                        <h3>University of Bristol</h3>
-                        <p class="education-degree">Exchange Student - AI for Biomedical Science</p>
-                        <p class="education-date">2026</p>
-                        <p class="education-details">
-                            • AI/Genomics and Evolution<br>
-                            • Applications to Bioinformatics<br>
-                            • Advanced Machine Learning in Life Sciences
-                        </p>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <div class="education-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="education-content">
-                        <h3>University of California, Berkeley</h3>
-                        <p class="education-degree">Visiting Student - Summer Program 2024</p>
-                        <p class="education-date">06/2024 - 08/2024</p>
-                        <p class="education-details">
-                            • Human Anatomy, Statistical Probability<br>
-                            • Cognitive Neuroscience (Grade: A)
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <h2>Internship Experience</h2>
+        <ul class="exp-list">
+            <li><strong>Multi-Agent Systems & AI Framework Design</strong><br>
+                Algorithm Framework Design Improvement Intern, Institute of Microelectronics, Chinese Academy of Sciences, 07/2025–10/2025<br>
+                Contributed to design and implementation of multi-agent AI framework for smart cities, integrating NLP and decision-making systems.
+            </li>
+            <li><strong>Single Cell Data Analysis & Bioinformatics</strong><br>
+                Intern, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences, 05/2024–06/2025<br>
+                Conducted RNA-seq and single-cell transcriptomic data analysis, including differential expression and cell clustering. Applied tools like Seurat and Scanpy for data preprocessing, visualization, and interpretation.
+            </li>
+        </ul>
 
-    <!-- Awards -->
-    <section id="awards" class="awards">
-        <div class="container">
-            <h2 class="section-title">Awards & Honors</h2>
-            <div class="awards-grid">
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <h3>Dean's Honor List</h3>
-                    <p>University of Macau, Faculty of Health Sciences</p>
-                    <span class="award-year">2024-2025</span>
-                </div>
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-medal"></i>
-                    </div>
-                    <h3>Best Oral Presentation</h3>
-                    <p>ECNCT 2025, IEEE Conference</p>
-                    <span class="award-year">2025</span>
-                </div>
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3>iGEM Silver Medal</h3>
-                    <p>CavengerX Anti-Cancer System</p>
-                    <span class="award-year">2024</span>
-                </div>
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3>Leadership Scholarship</h3>
-                    <p>CKLC Leadership and Contribution</p>
-                    <span class="award-year">2024</span>
-                </div>
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Kaggle Competitions</h3>
-                    <p>Top 5%-20% in Multiple ML Competitions</p>
-                    <span class="award-year">2025</span>
-                </div>
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Future Cup Second Prize</h3>
-                    <p>University Big Data Challenge</p>
-                    <span class="award-year">2025</span>
-                </div>
-            </div>
-        </div>
-    </section>
+        <h2>Awards & Honors</h2>
+        <ul class="awards-list">
+            <li>Dean's Honor List, University of Macau, 2024–2025</li>
+            <li>Bronze Medal, Kaggle RSNA Intracranial Aneurysm Detection, 2025</li>
+            <li>Honours College Certificate Program, University of Macau, 2024–2025</li>
+            <li>Best Oral Presentation, ECNCT 2025</li>
+            <li>Excellent Young Scholar Award, ECNCT 2025</li>
+        </ul>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">R</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">HTML/CSS</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>AI/ML Frameworks</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">PyTorch</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">Scikit-learn</span>
-                        <span class="skill-tag">OpenCV</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Bioinformatics</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Seurat</span>
-                        <span class="skill-tag">Scanpy</span>
-                        <span class="skill-tag">CellPhoneDB</span>
-                        <span class="skill-tag">RNA-seq Analysis</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Tools & Technologies</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">FastAPI</span>
-                        <span class="skill-tag">React</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Programming</strong>: Python, C++, MySQL, R, SPSS, MATLAB</li>
+            <li><strong>Deep Learning Frameworks</strong>: PyTorch, TensorFlow, Keras</li>
+            <li><strong>Tools</strong>: Git, Linux, Docker, Jupyter Notebooks</li>
+            <li><strong>Languages</strong>: English (TOEFL iBT 98), Mandarin, Cantonese (Basic)</li>
+        </ul>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-text">
-                    <h3>Let's Connect</h3>
-                    <p>I'm always interested in discussing research opportunities, collaborations, or innovative projects in AI and bioinformatics. Feel free to reach out!</p>
-                </div>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:maxyuan0622@outlook.com">maxyuan0622@outlook.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>+86-15363588039</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Beijing, China</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <a href="https://github.com/Max-YUAN-22" target="_blank">GitHub Profile</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-graduation-cap"></i>
-                        <a href="https://scholar.google.com/citations?user=M_Po0asAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Tianzuo Yuan. All rights reserved.</p>
-            <p>Designed with passion for academic excellence and innovation.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+        <h2>Extracurricular Activities</h2>
+        <ul class="exp-list">
+            <li>Member, Unmanned Technology Application Team, 08/2025–09/2025</li>
+            <li>Minister, Publicity Department, IET Hong Kong Branch, 08/2024–12/2025</li>
+            <li>Top 9 Finalist, Public Speaking & Leadership, University of Macau, 01/2024–12/2025</li>
+        </ul>
+    </div>
 </body>
 </html>
