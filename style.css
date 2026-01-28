@@ -3,61 +3,83 @@ body {
     line-height: 1.55;
     color: #222;
     background: #fff;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 70px 22px 28px 22px;
+    margin: 0;
+    padding: 0;
 }
 
-.topnav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: #ffffff;
-    border-bottom: 1px solid #e6e6e6;
-    z-index: 1000;
-}
-
-.topnav-inner {
-    max-width: 960px;
+.page {
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 10px 22px;
+    padding: 28px 22px;
     display: flex;
-    align-items: center;
-    gap: 18px;
+    gap: 28px;
+    align-items: flex-start;
 }
 
-.topnav-brand {
-    color: #222;
-    text-decoration: none;
+.sidebar {
+    width: 280px;
+    position: sticky;
+    top: 22px;
+    padding: 14px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+}
+
+.sidebar-name {
+    font-size: 18px;
     font-weight: 600;
-    white-space: nowrap;
+    margin: 10px 0 12px 0;
 }
 
-.topnav-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 14px;
+.sidebar-block {
+    margin-bottom: 12px;
 }
 
-.topnav-links a {
+.sidebar-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 4px;
+}
+
+.sidebar-text {
+    font-size: 13px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.sidebar-links a {
+    font-size: 13px;
     color: #0066cc;
     text-decoration: none;
-    font-size: 13px;
-    white-space: nowrap;
 }
 
-.topnav-links a:hover {
+.sidebar-links a:hover {
     text-decoration: underline;
 }
 
-.topnav-links a:visited {
-    color: #0066cc;
+.sidebar-nav {
+    border-top: 1px solid #ededed;
+    padding-top: 12px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.container {
-    padding-bottom: 12px;
-    border-bottom: 1px solid #e6e6e6;
+.sidebar-nav a {
+    font-size: 13px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.sidebar-nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    min-width: 0;
 }
 
 .header-table {
@@ -78,8 +100,9 @@ body {
     border-radius: 2px;
     object-fit: contain;
     border: 1px solid #e0e0e0;
-    margin-top: 10px;
     background: #fff;
+    display: block;
+    margin: 0 auto;
 }
 
 .info-cell {
@@ -149,7 +172,7 @@ h2 {
 }
 
 h2[id] {
-    scroll-margin-top: 78px;
+    scroll-margin-top: 18px;
 }
 
 .pub-table {
@@ -353,12 +376,15 @@ h2[id] {
 }
 
 @media (max-width: 768px) {
-    body {
+    .page {
         padding: 18px 14px;
+        flex-direction: column;
     }
 
-    .topnav-inner {
-        padding: 10px 14px;
+    .sidebar {
+        width: auto;
+        position: relative;
+        top: auto;
     }
 
     .header-table {
