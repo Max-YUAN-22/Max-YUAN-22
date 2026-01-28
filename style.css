@@ -36,8 +36,16 @@ body {
 
 .topnav-links {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px 14px;
+    flex-wrap: nowrap;
+    gap: 0 14px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.topnav-links::-webkit-scrollbar {
+    display: none;
 }
 
 .topnav-links a {
