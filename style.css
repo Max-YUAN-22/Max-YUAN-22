@@ -269,6 +269,81 @@ h2[id] {
     color: #222;
 }
 
+.exp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.exp-table tr {
+    border-bottom: 1px solid #ededed;
+}
+
+.exp-table tr:last-child {
+    border-bottom: none;
+}
+
+.exp-image-cell {
+    width: 180px;
+    padding: 12px 16px 12px 0;
+    vertical-align: top;
+}
+
+.exp-figure {
+    width: 180px;
+    height: 120px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.exp-image {
+    display: block;
+    max-width: 180px;
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.exp-placeholder {
+    width: 180px;
+    height: 120px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.exp-content-cell {
+    vertical-align: top;
+    padding: 12px 0;
+}
+
+.exp-title {
+    font-size: 15px;
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.exp-title strong {
+    font-weight: bold;
+}
+
+.exp-meta {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.exp-desc {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.65;
+}
+
 .edu-list {
     list-style: none;
     padding: 0;
