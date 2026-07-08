@@ -2,10 +2,11 @@
 👋 Hi, I'm @Max-YUAN-22 Tianzuo Yuan
 ## 🔬 Research Interests
 👀 My fields of interests are:
-- Biomedical imaging and engineering
-- Bioinformatics algorithms
-- Computer vision and deep learning
-- Multi-agent/Multi-model LLMs applications
+- Agentic Artificial Intelligence
+- Multimodal Medical AI
+- Biomedical Foundation Models
+- Multi-Agent Systems
+- AI-assisted Drug Discovery
 ## 🌱 Currently Learning
 Python, PyTorch, TensorFlow, R, C++, HTML, CSS, JavaScript, Matlab, MySQL
 ## 🧑‍🤝‍🧑 Looking to Collaborate
